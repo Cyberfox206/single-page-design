@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFF7F0;
+}
+
+a {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px;
+    background: #030303;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #FFF7F0;
+}
+
+p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #7A746E;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+nav {
+    margin: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logoA {
+    width: 48px;
+    height: 48px;
+}
+
+#logoB {
+    width: 48px;
+    height: 48px;
+}
+
+h1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 16px;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    max-lines: 45px;
+}
+
+.text1 {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.card_text {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    display: inline;
+}
+
+#cardcontent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#card1 {
+    display: flex;
+    align-items: flex-end;
+    width: 343px;
+    height: 364px;
+    background-color: #755CDE;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    /* background-image: url(/assets/pattern-graphic-design.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 10%; */
+}
+
+#card2 {
+    display: flex;
+    align-items: flex-end;
+    width: 159px;
+    height: 182px;
+    background: #F6A560;
+    border-radius: 8px;
+    margin-right: 25px;
+    /* background-image: url(assets/pattern-ui-ux.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 10%; */
+}
+
+#card3 {
+    display: flex;
+    align-items: flex-end;
+    width: 159px;
+    height: 182px;
+    background: #F39E9E;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    /* background-image: url(assets/pattern-apps.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 10%; */
+}
+
+#card4 {
+    display: flex;
+    align-items: flex-end;
+    width: 343px;
+    height: 158px;
+    background: #EB7565;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    /* background-image: url(assets/pattern-illustrations.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 10%; */
+}
+
+#card5 {
+    display: flex;
+    align-items: flex-end;
+    width: 343px;
+    height: 182px;
+    background: #61C4B7;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    /* background-image: url(assets/pattern-photography.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 10%; */
+}
+
+#card6 {
+    display: flex;
+    align-items: flex-end;
+    width: 343px;
+    height: 182px;
+    background: #552049;
+    border-radius: 8px;
+    /* background-image: url(assets/pattern-motion-graphics.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 10%; */
+}
+
+#sectionamy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#amyimg {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+.amytitre {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+    margin-bottom: 24px;
+    width: 90%;
+}
+
+.textamy {
+    margin-bottom: 24px;
+    width: 90%;
+}
+
+.btnamy {
+    background: #EB7565;
+    margin-bottom: 100px;
+}
+
+.mywork {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+.btnd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 50%;
+    padding: 15px;
+    border: none;
+}
+
+.btncontent {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.btng {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.articlebook {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.blackcadre {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: black;
+    width: 90%;
+
+}
+
+.titrebook {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 24px;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+    color: white;
+}
+
+.textbook {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+    color: white;
+    text-align: center;
+    width: 80%;
+}
+
+.btnbook {
+    background: #EB7565;
+    margin-bottom: 48px;
+}
+
+footer {
+    width: 100vw;
+    height: 10vh;
+}

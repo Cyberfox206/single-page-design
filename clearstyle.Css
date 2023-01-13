@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    color: #FFF7F0;
+    --normal: 'Plus Jakarta Sans', sans-serif;
+}
+
+h1 {
+    font-family: var(--normal);
+    color: #030303;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+}
+
+p {
+    font-family: var(--normal);
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7A746E;
+}
+
+a {
+    text-decoration: none;
+    border-radius: 28px;
+    color: #FFF7F0;
+    background-color: #030303;
+    padding: 8px 28px;
+    font-family: var(--normal);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+nav {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoA {
+    width: 48px;
+    height: 48px;
+}
+
+.cardsec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+}
+
+.card1 {
+    background-image: url(/assets/pattern-graphic-design.svg);
+    width: 343px;
+    height: 364px;
+    background: #755CDE;
+    border-radius: 8px;
+    grid-column: 1/2;
+    grid-row: 1;
+}
+
+.card2 {
+    width: 159px;
+    height: 182px;
+    background: #F6A560;
+    border-radius: 8px;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.card3 {
+    width: 159px;
+    height: 182px;
+    background: #F39E9E;
+    border-radius: 8px;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.card4 {
+    width: 343px;
+    height: 158px;
+    background: #EB7565;
+    border-radius: 8px;
+    grid-column: 1/2;
+    grid-row: 3;
+}
+
+.card5 {
+    width: 343px;
+    height: 182px;
+    background: #61C4B7;
+    border-radius: 8px;
+    grid-column: 1/2;
+    grid-row: 4;
+}
+
+.card6 {
+    width: 343px;
+    height: 182px;
+    background: #552049;
+    border-radius: 8px;
+    grid-column: 1/2;
+    grid-row: 5;
+}
+
+.amyart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.amyimg {
+    width: 300px;
+    height: 300px;
+}
+
+.amytitre {
+    display: inline;
+    font-family: var(--normal);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+    color: #030303;
+    height: auto;
+}
+
+.amybtn {
+    background: #EB7565;
+}
+
+.MyWorkart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.MyWorktitel {
+    font-family: var(--normal);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #030303;
+}
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    animation: slideranime 10s infinite;
+}
+
+
+@keyframes slideranime {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(-540px);
+    }
+
+    100% {
+        transform: translateX(-540px);
+    }
+}
